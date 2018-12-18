@@ -22,6 +22,12 @@
 
     <title>Shop - ${title}</title>
 
+
+    <script>
+        window.menu = '${title}';
+    </script>
+
+
     <!-- Bootstrap Core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
@@ -73,6 +79,11 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="${js }/bootstrap.min.js"></script>
+
+
+<!--moj js-->
+<script src="${js }/myapp.js"></script>
+
 
 </body>
 
