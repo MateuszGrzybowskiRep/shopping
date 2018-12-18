@@ -6,23 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="new js file (Active Menu).">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/doimpl/CategoryDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/CategoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" afterDir="false" />
+    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/classes/com/websystique/springmvc/controller/PageControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/classes/com/websystique/springmvc/controller/PageControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/shared/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/WEB-INF/views/shared/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,7 +43,7 @@
           <entry key="jquery" value="1" />
           <entry key="js" value="72" />
           <entry key="jsp" value="1563" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="157" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="127" />
         </counts>
@@ -68,7 +54,7 @@
           <entry key="JAVA" value="1293" />
           <entry key="JSP" value="1563" />
           <entry key="JavaScript" value="72" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="PLAIN_TEXT" value="158" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="127" />
         </counts>
@@ -208,11 +194,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="193" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="y" value="25" />
     <option name="width" value="884" />
-    <option name="height" value="1044" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -307,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545172499927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545172744723" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -537,7 +523,7 @@
       <workItem from="1544974947994" duration="126000" />
       <workItem from="1544975249296" duration="9087000" />
       <workItem from="1545059583617" duration="11769000" />
-      <workItem from="1545156311396" duration="6991000" />
+      <workItem from="1545156311396" duration="7237000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -560,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545078832997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new file jsp, create new package, dto, dao pattern">
+      <created>1545172731047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545172731047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -578,10 +571,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108991000" />
+    <option name="totallyTimeSpent" value="109237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1028" y="24" width="884" height="1016" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -590,7 +583,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.3529412" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16819407" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -602,7 +595,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.8374341" visible="true" weight="0.29198682" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.8374341" visible="true" weight="0.27170584" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.3180428" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -661,7 +654,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding Bootstrap, controller, configuration file" />
     <MESSAGE value="new js file (Active Menu)." />
-    <option name="LAST_COMMIT_MESSAGE" value="new js file (Active Menu)." />
+    <MESSAGE value="add new file jsp, create new package, dto, dao pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new file jsp, create new package, dto, dao pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
