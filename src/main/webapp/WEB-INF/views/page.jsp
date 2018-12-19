@@ -59,15 +59,15 @@
 <c:if test="${userClickAbout== true}">
     <%@include file="about.jsp"%>
 </c:if>
-
+<!--load when user pick load-->
 <c:if test="${userClickContact== true}">
     <%@include file="contact.jsp"%>
 </c:if>
 
-
-
-
-
+<!--load when user pick contact-->
+<c:if test="${userClickAllProducts== true or userClickCategoryProducts}">
+    <%@include file="listProducts.jsp"%>
+</c:if>
 
 
 <!--footer-->
@@ -79,7 +79,6 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="${js }/bootstrap.min.js"></script>
-
 
 <!--moj js-->
 <script src="${js }/myapp.js"></script>
