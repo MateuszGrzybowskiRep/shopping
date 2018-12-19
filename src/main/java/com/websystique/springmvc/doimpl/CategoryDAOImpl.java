@@ -24,7 +24,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 
 
         Category category1 = new Category();
-        category1.setId(1);
+        category1.setId(2);
         category1.setName("Mobile");
         category1.setDescription("description");
         category1.setImageURL("CAT_1.png");
@@ -32,7 +32,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 
 
         Category category2 = new Category();
-        category2.setId(1);
+        category2.setId(3);
         category2.setName("Laptop");
         category2.setDescription("description");
         category2.setImageURL("CAT_2.png");
