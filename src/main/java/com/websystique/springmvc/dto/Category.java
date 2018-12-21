@@ -1,9 +1,13 @@
-package com.websystique.springmvc.dao;
+package com.websystique.springmvc.dto;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
+@Table(name = "Category")
 public class Category {
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
