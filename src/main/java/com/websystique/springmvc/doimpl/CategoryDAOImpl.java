@@ -2,7 +2,10 @@ package com.websystique.springmvc.doimpl;
 
 import com.websystique.springmvc.dao.Category;
 import com.websystique.springmvc.dto.CategoryDAO;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +13,9 @@ import java.util.List;
 
 @Repository("categoryDAO")
 public class CategoryDAOImpl implements CategoryDAO {
-
-
+/*
+    @Autowired
+    private SessionFactory sessionFactory;*/
     private static List<Category> categories = new ArrayList<Category>();
 
     static {
@@ -55,6 +59,18 @@ public class CategoryDAOImpl implements CategoryDAO {
         }
         return null;
     }
+ /*   @Override
+    @Transactional
+    public boolean add(Category category) {
+    try {
+        sessionFactory.getCurrentSession().persist(category);
+        return true;
+    }
+    catch (Exception ex){
+        ex.printStackTrace();
+        return false;
+    }
+    }*/
 
 
 }

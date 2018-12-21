@@ -65,7 +65,7 @@
 </c:if>
 
 <!--load when user pick contact-->
-<c:if test="${userClickAllProducts== true or userClickCategoryProducts}">
+<c:if test="${userClickAllProducts== true or userClickCategoryProducts== true}">
     <%@include file="listProducts.jsp"%>
 </c:if>
 

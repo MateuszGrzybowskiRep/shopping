@@ -32,7 +32,6 @@ public class PageControler {
         mv.addObject("userClickAbout", true);
         return mv;
     }
-
     @RequestMapping(value = "/contact")
     public ModelAndView contact() {
         ModelAndView mv = new ModelAndView("page");

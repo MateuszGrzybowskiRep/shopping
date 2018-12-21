@@ -1,12 +1,20 @@
 package com.websystique.springmvc.dao;
 
-public class Category {
+import javax.persistence.*;
 
-private int id;
-private String name;
-private String description;
-private String imageURL;
-private boolean active = true;
+@Entity
+public class Category {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    private String description;
+
+    @Column(name = "image_url")
+    private String imageURL;
+
+    @Column(name ="is_active ")
+    private boolean active = true;
 
     public int getId() {
         return id;
@@ -46,5 +54,16 @@ private boolean active = true;
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", imageURL='" + imageURL + '\'' +
+                ", active=" + active +
+                '}';
     }
 }
