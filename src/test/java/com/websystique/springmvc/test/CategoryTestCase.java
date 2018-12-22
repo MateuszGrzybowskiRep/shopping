@@ -11,29 +11,26 @@ import static org.junit.Assert.assertEquals;
 public class CategoryTestCase {
     private static AnnotationConfigApplicationContext context;
     private static CategoryDAO categoryDAO;
-    private Category category0;
+    private Category category;
 
     @BeforeClass
     public static void init(){
         context = new AnnotationConfigApplicationContext();
         context.scan("com.websystique.springmvc");
         context.refresh();
-
         categoryDAO = (CategoryDAO)context.getBean("categoryDAO");
     }
 
-    @Test
-    public void testAddCategory(){
-
-         category0 = new Category();
 
 
-        category0.setName("Television");
-        category0.setDescription("description");
-        category0.setImageURL("CAT_0.png");
+  /*@Test
+    public void testDelate(){
 
-        assertEquals("dziala", true, categoryDAO.add(category0));
+        category = categoryDAO.get(1);
+        assertEquals("dziala", "tel", category.getName());
     }
+*/
+
 
 
 }

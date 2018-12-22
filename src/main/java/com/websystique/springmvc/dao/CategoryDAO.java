@@ -7,8 +7,10 @@ import java.util.List;
 
 public interface CategoryDAO {
 
-   boolean add(Category category);
 
     List<Category> list();
     Category get(int id);
+    boolean add(Category category);
+    boolean ubtate(Category category);
+    boolean delate(Category category);
 }

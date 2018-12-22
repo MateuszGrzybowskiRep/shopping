@@ -12,20 +12,65 @@ import java.util.List;
 
 
 @Repository("categoryDAO")
+@Transactional
 public class CategoryDAOImpl implements CategoryDAO {
 //nie dziala autowire
 
     @Autowired
     private SessionFactory sessionFactory;
 
-    public void setSessionFactory(SessionFactory sf){
-        this.sessionFactory = sf;
+    @Override
+    public boolean add(Category category) {
+        try {
+            sessionFactory.getCurrentSession().persist(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public List<Category> list() {
+        return null;
+    }
+
+    @Override
+    public Category get(int id) {
+        return sessionFactory.getCurrentSession().get(Category.class, Integer.valueOf(id));
+    }
+
+    @Override
+    public boolean ubtate(Category category) {
+        try {
+            sessionFactory.getCurrentSession().update(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public boolean delate(Category category) {
+        category.setActive(false);
+        try {
+            sessionFactory.getCurrentSession().update(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
     }
 
 
-    private static List<Category> categories = new ArrayList<Category>();
 
-    static {
+
+/*
+
+   private static List<Category> categories = new ArrayList<Category>();
+
+      static {
         Category category0 = new Category();
         category0.setId(1);
         category0.setName("Television");
@@ -48,22 +93,16 @@ public class CategoryDAOImpl implements CategoryDAO {
         category2.setDescription("description");
         category2.setImageURL("CAT_2.png");
         categories.add(category2);
-
-
     }
-
-
-
 
     @Override
     public List<Category> list() {
         return categories;
     }
-
     @Override
     public Category get(int id) {
-        for (Category category : categories){
-            if (category.getId()==id)
+        for (Category category : categories) {
+            if (category.getId() == id)
                 return category;
         }
         return null;
@@ -71,15 +110,13 @@ public class CategoryDAOImpl implements CategoryDAO {
     @Override
     @Transactional
     public boolean add(Category category) {
-    try {
-        sessionFactory.getCurrentSession().persist(category);
-        return true;
+        try {
+            sessionFactory.getCurrentSession().persist(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
     }
-    catch (Exception ex){
-        ex.printStackTrace();
-        return false;
-    }
-    }
-
-
+    */
 }
