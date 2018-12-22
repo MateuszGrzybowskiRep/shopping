@@ -31,6 +31,28 @@ public class CategoryTestCase {
     }
 */
 
+ /*   @Test
+    public void testUbtate(){
 
+        category = categoryDAO.get(1);
+        category.setName("TV");
+        assertEquals("dziala", true, categoryDAO.ubtate(category));
+    }*/
 
+/*
+    @Test
+    public void testDelate(){
+
+        category = categoryDAO.get(1);
+        assertEquals("dziala", true, categoryDAO.delate(category));
+    }
+*/
+
+  /*  @Test
+    public void testList(){
+
+        category = categoryDAO.get(1);
+        assertEquals("dziala", 3, categoryDAO.list().size());
+    }
+*/
 }
