@@ -32,6 +32,25 @@
 
                         </div>
                     </div>
+
+                    <div class="row">
+
+                        <div class="col-xs-12">
+                            <table id="productListTable" class="table table-striped table-borderd">
+                                <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>cos</th>
+                                </tr>
+
+                                </thead>
+
+                            </table>
+                        </div>
+
+                    </div>
+
             </div>
     </div>
+
 </div>

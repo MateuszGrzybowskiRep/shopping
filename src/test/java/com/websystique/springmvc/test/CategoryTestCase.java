@@ -48,11 +48,11 @@ public class CategoryTestCase {
     }
 */
 
-  /*  @Test
+    @Test
     public void testList(){
 
         category = categoryDAO.get(1);
         assertEquals("dziala", 3, categoryDAO.list().size());
     }
-*/
+
 }

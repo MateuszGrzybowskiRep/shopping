@@ -1,26 +1,14 @@
 package com.websystique.springmvc.dto;
 
-import java.io.Serializable;
 import java.util.UUID;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Transient;
-import javax.validation.constraints.Min;
+import javax.persistence.*;
 
-import org.springframework.stereotype.Component;
-import org.springframework.web.multipart.MultipartFile;
 
-@Component
+
 @Entity
-public class Product implements Serializable {
+public class Product  {
 
-    private static final long serialVersionUID = 1L;
-
-    // private fields
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -29,7 +17,6 @@ public class Product implements Serializable {
     private String brand;
     private String description;
     @Column(name = "unit_price")
-    @Min(value = 1, message="Please select at least one value!")
     private double unitPrice;
     private int quantity;
     @Column(name = "is_active")
@@ -42,16 +29,6 @@ public class Product implements Serializable {
     private int views;
 
 
-    @Transient
-    private MultipartFile file;
-
-    public MultipartFile getFile() {
-        return file;
-    }
-
-    public void setFile(MultipartFile file) {
-        this.file = file;
-    }
 
     public Product() {
 
