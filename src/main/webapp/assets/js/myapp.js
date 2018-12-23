@@ -23,28 +23,39 @@ $(function() {
 
 
 
-    var products = [
-
-        ['1', 'ABC'],
-        ['2', 'CYX'],
-        ['3', 'PQR'],
-        ['4', 'MNO'],
-        ['5', 'WVB'],
-        ['6', 'CFG'],
-        ['7', 'HIK'],
-        ['8', 'LMP']
-
-    ];
-
     var $table = $('#productListTable');
     if($table.length) {
-        console.log('Inside the table!');
+
+        var jsonUrl = '';
+        if (window.categoryId == '') {
+            jsonUrl = window.contextRoot+'/json/data/all/products';
+        } else {
+            jsonUrl = window.contextRoot+'/json/data/category/'+ window.categoryId +'/products';
+        }
 
         $table.DataTable( {
 
             lengthMenu: [[3,5,10,-1], ['3 Records', '5 Records', '10 Records', 'ALL']],
-            pageLength: 10,
-            data: products
+            pageLength: 5,
+
+            ajax: {
+                url: jsonUrl,
+                dataSrc: ''
+            },
+            columns: [
+
+                {
+                    data: 'name'
+                },
+                {
+                    data: 'brand'
+                },
+                {
+                    data: 'unitPrice'
+                },
+                {
+                    data: 'quantity'
+                }]
         });
 
 

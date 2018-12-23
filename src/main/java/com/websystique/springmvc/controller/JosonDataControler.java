@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
+@RequestMapping("/json/data")
+
 public class JosonDataControler {
     @Autowired
     private ProductDAO productDAO;
 
 
-    @RequestMapping("/all")
+    @RequestMapping("/all/products")
     @ResponseBody
     public List<Product> getAllProducts() {
         //return productDAO.list();
