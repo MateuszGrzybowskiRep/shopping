@@ -1,8 +1,10 @@
 package com.websystique.springmvc.controller;
 
 
+import com.websystique.springmvc.dao.ProductDAO;
 import com.websystique.springmvc.dto.Category;
 import com.websystique.springmvc.dao.CategoryDAO;
+import com.websystique.springmvc.dto.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +16,9 @@ public class PageControler {
 
     @Autowired
     private CategoryDAO categoryDAO;
+
+    @Autowired
+    private ProductDAO productDAO;
 
     @RequestMapping(value = {"/", "home","index"})
     public ModelAndView index() {
@@ -56,6 +61,19 @@ public class PageControler {
         mv.addObject("categories",categoryDAO.list());//passing list
         mv.addObject("category",category);
         mv.addObject("userClickCategoryProducts", true);
+        return mv;
+    }
+    //widok na pojedynczy produkt
+    @RequestMapping(value = "/show/{id}/product")
+        public ModelAndView showSingleProduct(@PathVariable ("id")int id){
+        ModelAndView mv =new ModelAndView("page");
+        Product product=productDAO.get(id);
+        product.setViews(product.getViews()+1);
+        mv.addObject("title",product.getName());
+        mv.addObject("product",product);
+        mv.addObject("userClickShowProduct",true);
+
+
         return mv;
     }
 

@@ -27,10 +27,13 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
-
+    <!-- cos nie czyta-->
     <link href="${css}/assets/css/bootstrap-readable-theme.css" rel="stylesheet">
-
+    <!-- cos nie czyta-->
     <link href="${css}/assets/css/bootstrap-theme.css" rel="stylesheet">
+
+        <!-- cos nie czyta-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -65,17 +68,17 @@
     <%@include file="listProducts.jsp"%>
 </c:if>
 
+<c:if test="${userClickShowProduct== true}">
+    <%@include file="singleProduct.jsp"%>
+</c:if>
 
 <!--footer-->
 <%@include file="./shared/footer.jsp"%>
 <!-- /.container -->
-
 <!-- jQuery -->
 <script src="${js}/jquery.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="${js}/bootstrap.min.js"></script>
-
 <!--Database plugin-->
 <script src="${js}/jquery.dataTables.js"></script>
 

@@ -1,5 +1,7 @@
 package com.websystique.springmvc.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.UUID;
 
 import javax.persistence.*;
@@ -15,15 +17,23 @@ public class Product  {
     private String code;
     private String name;
     private String brand;
+
+    @JsonIgnore
     private String description;
     @Column(name = "unit_price")
     private double unitPrice;
     private int quantity;
+
+    @JsonIgnore
     @Column(name = "is_active")
     private boolean active;
-    @Column(name = "category_id")
+    @Column(name = "category_id"
+    )
+    @JsonIgnore
     private int categoryId;
     @Column(name = "supplier_id")
+
+    @JsonIgnore
     private int supplierId;
     private int purchases;
     private int views;
@@ -97,19 +107,15 @@ public class Product  {
     public void setSupplierId(int supplierId) {
         this.supplierId = supplierId;
     }
-
     public int getPurchases() {
         return purchases;
     }
-
     public void setPurchases(int purchases) {
         this.purchases = purchases;
     }
-
     public int getViews() {
         return views;
     }
-
     public void setViews(int views) {
         this.views = views;
     }
