@@ -75,7 +75,7 @@
 
                         <blockquote style="word-wrap:break-word">
 
-                            ${errorDescription}
+                            ${errorDiscription}
 
                         </blockquote>
 
