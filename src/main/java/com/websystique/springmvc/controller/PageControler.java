@@ -5,6 +5,8 @@ import com.websystique.springmvc.dao.ProductDAO;
 import com.websystique.springmvc.dto.Category;
 import com.websystique.springmvc.dao.CategoryDAO;
 import com.websystique.springmvc.dto.Product;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,10 +22,14 @@ public class PageControler {
     @Autowired
     private ProductDAO productDAO;
 
+    private static final Logger logger = LoggerFactory.getLogger(PageControler.class);
+
     @RequestMapping(value = {"/", "home","index"})
     public ModelAndView index() {
         ModelAndView mv = new ModelAndView("page");
         mv.addObject("title", "Home");
+        logger.info("inside page");
+        logger.debug("inside page");
         mv.addObject("categories",categoryDAO.list());//passing list
         mv.addObject("userClickHome", true);
         return mv;
