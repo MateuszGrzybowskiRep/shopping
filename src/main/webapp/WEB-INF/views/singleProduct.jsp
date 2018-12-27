@@ -24,12 +24,37 @@
                 <p>${product.description}</p>
                 <hr/>
 
-                <h4>Price: <strong> &#8364; ${product.unitPrice}</strong></h4>
+                <h4>Price: <strong> &#8364; ${product.unitPrice}/-</strong></h4>
 
-                <h6>Qty. Aviablable: ${product.quantity}</h6>
 
-                <a href="${contextRoot}/cart/add/${product.id}/product" class="btn btn-success">
-                    <span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+
+                <c:choose>
+                    <c:when test="${product.quantity<1}">
+                        <h6>Qty. Aviablable: <span style="color:red">Out of Stock!</span></h6>
+                    </c:when>
+                    <c:otherwise>
+                        <h6>Qty. Aviablable: ${product.quantity}</h6>
+                    </c:otherwise>
+
+                </c:choose>
+
+
+
+                <c:choose>
+                    <c:when test="${product.quantity<1}">
+                            <a href="javascript:void(0)" class="btn btn-success disabled"><strike>
+                            <span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</strike></a>
+
+                    </c:when>
+
+                    <c:otherwise>
+                              <a href="${contextRoot}/cart/add/${product.id}/product" class="btn btn-success">
+                              <span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+
+                    </c:otherwise>
+
+                </c:choose>
+
 
                 <a href="${contextRoot}/show/all/product" class="btn btn-primary">
                     Back</a>
