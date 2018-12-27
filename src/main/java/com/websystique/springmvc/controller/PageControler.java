@@ -5,6 +5,7 @@ import com.websystique.springmvc.dao.ProductDAO;
 import com.websystique.springmvc.dto.Category;
 import com.websystique.springmvc.dao.CategoryDAO;
 import com.websystique.springmvc.dto.Product;
+import com.websystique.springmvc.exception.ProductNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,9 +72,12 @@ public class PageControler {
     }
     //widok na pojedynczy produkt
     @RequestMapping(value = "/show/{id}/product")
-        public ModelAndView showSingleProduct(@PathVariable ("id")int id){
+        public ModelAndView showSingleProduct(@PathVariable ("id")int id) throws ProductNotFoundException {
         ModelAndView mv =new ModelAndView("page");
         Product product=productDAO.get(id);
+
+        if (product== null) throw new ProductNotFoundException();
+
         product.setViews(product.getViews()+1);
         mv.addObject("title",product.getName());
         mv.addObject("product",product);

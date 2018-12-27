@@ -11,12 +11,19 @@ public class GlobalDefaultExceptionHandler {
 
     @ExceptionHandler(NoHandlerFoundException.class)
     public ModelAndView handlerNoHandlerFoundException(){
-
         ModelAndView mv = new ModelAndView("error");
         mv.addObject("errorTitle","the page is not conmstructed");
         mv.addObject("errorDiscription","The page you are loking for is not aviable now");
         mv.addObject("title","404 Error Page");
-
         return mv;
     }
+    @ExceptionHandler(ProductNotFoundException.class)
+    public ModelAndView handlerProductNotFoundException(){
+        ModelAndView mv = new ModelAndView("error");
+        mv.addObject("errorTitle","Product not available!");
+        mv.addObject("errorDiscription","The product you are loking for is not aviable");
+        mv.addObject("title","product is not aviable");
+        return mv;
+    }
+
 }
