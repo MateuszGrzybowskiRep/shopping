@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="4.8 dont work">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
+    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,9 +66,9 @@
           <entry key="java" value="4154" />
           <entry key="jquery" value="1" />
           <entry key="js" value="514" />
-          <entry key="jsp" value="3140" />
+          <entry key="jsp" value="3393" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="530" />
+          <entry key="txt" value="546" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="831" />
         </counts>
@@ -83,9 +77,9 @@
         <counts>
           <entry key="CSS" value="18" />
           <entry key="JAVA" value="4154" />
-          <entry key="JSP" value="3140" />
+          <entry key="JSP" value="3393" />
           <entry key="JavaScript" value="514" />
-          <entry key="PLAIN_TEXT" value="532" />
+          <entry key="PLAIN_TEXT" value="548" />
           <entry key="SQL" value="150" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="831" />
@@ -139,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+            <state relative-caret-position="645">
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -266,7 +260,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="854" />
+    <option name="width" value="936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -721,7 +715,7 @@
       <workItem from="1545815747792" duration="663000" />
       <workItem from="1545832338559" duration="20289000" />
       <workItem from="1545896520752" duration="32056000" />
-      <workItem from="1545983828489" duration="11713000" />
+      <workItem from="1545983828489" duration="16712000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -919,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545931124833</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Classes Product Management (pannel-body)">
+      <created>1546020636004</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1546020636004</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -955,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305062000" />
+    <option name="totallyTimeSpent" value="310061000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -967,7 +968,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="854" height="1056" extended-state="0" />
+    <frame x="65" y="24" width="936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -975,13 +976,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" visible="true" weight="0.15456675" />
+      <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" visible="true" weight="0.14102565" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.15456675" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.14102565" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.21662763" side_tool="true" visible="true" weight="0.19768664" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.20512821" side_tool="true" visible="true" weight="0.19768664" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49824253" weight="0.18998979" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
@@ -989,7 +990,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.33859095" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.78337234" visible="true" weight="0.19768664" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7948718" visible="true" weight="0.19768664" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1073,7 +1074,8 @@
     <MESSAGE value="Product not available -exception handling" />
     <MESSAGE value="printStackTrace" />
     <MESSAGE value="4.8 dont work" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.8 dont work" />
+    <MESSAGE value="Classes Product Management (pannel-body)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes Product Management (pannel-body)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar!/org/hibernate/SessionFactory.class">
@@ -1195,6 +1197,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,8 +1417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+        <state relative-caret-position="645">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
