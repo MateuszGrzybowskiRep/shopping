@@ -57,12 +57,9 @@ body {
 footer {
     margin: 0;
 }
-
-
 /*
 	custom styling
 */
-
 .wrapper {
     min-height:100%;
     position: relative;
@@ -89,5 +86,7 @@ footer {
     height: 100px;
 
 }
-
+.help-block{
+    color: #ff0000;
+}
 

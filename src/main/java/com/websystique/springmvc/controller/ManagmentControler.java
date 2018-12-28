@@ -1,0 +1,20 @@
+package com.websystique.springmvc.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("/manage")
+public class ManagmentControler {
+
+
+    @RequestMapping(value = "/products",method = RequestMethod.GET)
+    public ModelAndView showManageProducts() {
+        ModelAndView mv = new ModelAndView("page");
+        mv.addObject("userClickManageProducts",true);
+        return mv;
+    }
+}
