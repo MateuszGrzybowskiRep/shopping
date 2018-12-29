@@ -1,11 +1,12 @@
 package com.websystique.springmvc.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.validator.constraints.NotBlank;
 
 import java.util.UUID;
 
 import javax.persistence.*;
-
+import javax.validation.constraints.Min;
 
 
 @Entity
@@ -15,11 +16,16 @@ public class Product  {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String code;
+    @NotBlank(message = "Enter the Product Name")
     private String name;
+    @NotBlank(message = "Enter the Brand Name")
     private String brand;
 
     @JsonIgnore
+    @NotBlank(message = "Enter the description Name")
     private String description;
+
+    @Min(value = 1, message = "Enter the unit Price Name")
     @Column(name = "unit_price")
     private double unitPrice;
     private int quantity;
