@@ -38,14 +38,9 @@ public class Product  {
     private int purchases;
     private int views;
 
-
-
     public Product() {
-
         this.code = "PRD" + UUID.randomUUID().toString().substring(26).toUpperCase();
-
     }
-
 
     public int getId() {
         return id;
@@ -119,7 +114,6 @@ public class Product  {
     public void setViews(int views) {
         this.views = views;
     }
-
 
     @Override
     public String toString() {
