@@ -75,15 +75,11 @@ public class PageControler {
         public ModelAndView showSingleProduct(@PathVariable ("id")int id) throws ProductNotFoundException {
         ModelAndView mv =new ModelAndView("page");
         Product product=productDAO.get(id);
-
         if (product== null) throw new ProductNotFoundException();
-
         product.setViews(product.getViews()+1);
         mv.addObject("title",product.getName());
         mv.addObject("product",product);
         mv.addObject("userClickShowProduct",true);
-
-
         return mv;
     }
 
