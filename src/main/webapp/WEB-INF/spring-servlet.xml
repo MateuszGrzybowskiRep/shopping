@@ -26,6 +26,10 @@
         </property>
     </bean>
 
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
+
+    </bean>
+
     <mvc:resources mapping="/resources/**" location="/assets/"></mvc:resources>
 
 </beans>

@@ -2,6 +2,7 @@ package com.websystique.springmvc.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.validator.constraints.NotBlank;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.UUID;
 
@@ -43,6 +44,9 @@ public class Product  {
     private int supplierId;
     private int purchases;
     private int views;
+
+    @Transient
+    private MultipartFile file;
 
     public Product() {
         this.code = "PRD" + UUID.randomUUID().toString().substring(26).toUpperCase();
@@ -119,6 +123,12 @@ public class Product  {
     }
     public void setViews(int views) {
         this.views = views;
+    }
+    public MultipartFile getFile() {
+        return file;
+    }
+    public void setFile(MultipartFile file) {
+        this.file = file;
     }
 
     @Override

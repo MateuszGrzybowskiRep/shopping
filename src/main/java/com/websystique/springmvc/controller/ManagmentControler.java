@@ -5,6 +5,7 @@ import com.websystique.springmvc.dao.CategoryDAO;
 import com.websystique.springmvc.dao.ProductDAO;
 import com.websystique.springmvc.dto.Category;
 import com.websystique.springmvc.dto.Product;
+import com.websystique.springmvc.util.FileUploadUtility;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -56,7 +58,7 @@ public class ManagmentControler {
     }
 
     @RequestMapping(value = "/products",method = RequestMethod.POST)
-    public String handleProductSubmission(@Valid @ModelAttribute("product")Product mProduct, BindingResult result, Model model){
+    public String handleProductSubmission(@Valid @ModelAttribute("product")Product mProduct, BindingResult result, Model model, HttpServletRequest request){
         if(result.hasErrors()){
             model.addAttribute("userClickManageProducts",true);
             model.addAttribute("title","Manage Product");
@@ -66,6 +68,11 @@ public class ManagmentControler {
 
         logger.info(mProduct.toString());
         productDAO.add(mProduct);
+        if(!mProduct.getFile().getOriginalFilename().equals("")){
+            FileUploadUtility.uploadFile(request, mProduct.getFile(),mProduct.getCode());
+
+        }
+
         return "redirect:/manage/products?operation=product";
     }
 
