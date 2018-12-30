@@ -6,6 +6,7 @@ import com.websystique.springmvc.dao.ProductDAO;
 import com.websystique.springmvc.dto.Category;
 import com.websystique.springmvc.dto.Product;
 import com.websystique.springmvc.util.FileUploadUtility;
+import com.websystique.springmvc.validation.ProductValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,8 +61,13 @@ public class ManagmentControler {
     @RequestMapping(value = "/products",method = RequestMethod.POST)
     public String handleProductSubmission(@Valid @ModelAttribute("product")Product mProduct, BindingResult result, Model model, HttpServletRequest request){
         if(result.hasErrors()){
+
+            new ProductValidator().validate(mProduct,result);
+
             model.addAttribute("userClickManageProducts",true);
             model.addAttribute("title","Manage Product");
+            model.addAttribute("massage","Validation failed for Product Submission!");
+
 
             return "page";
         }
