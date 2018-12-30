@@ -136,16 +136,17 @@
                             </a>
                         </td>
                     </tr>
+
                     <tr>
                         <td>6</td>
-                        <td><img class="adminDataTableImg" src="/home/tomek/Downloads/Untitled Folder 17/JavaNew/src/main/webapp/assets/images/imagesPRD75DD30F4C8.jpg"/></td>
+                        <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg" alt=" Macbook Pro" /></td>
                         <td>Macbook Pro</td>
-                        <td>&#8377;</td>
-                        <td>5400.00</td>
+                        <td>3</td>
+                        <td>&#8377;5400.00</td>
                         <td>
                             <label class="switch">
                                 <input type="checkbox" value="4"/>
-                                <div class="slide"></div>
+                                <div class="slider"></div>
                             </label>
                         </td>
                         <td>
@@ -154,6 +155,7 @@
                             </a>
                         </td>
                     </tr>
+
                     </tbody>
 
                     <tfoot>

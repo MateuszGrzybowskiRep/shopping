@@ -183,7 +183,7 @@ input:checked + .slider:before {
     width: 20px;
     left: 5px;
     bottom: 5px;
-    background-color: #ffff00;
+    background-color: #ffff;
     border-radius: 50%;
     transition: .5s;
 }

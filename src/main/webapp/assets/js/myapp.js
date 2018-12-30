@@ -8,15 +8,16 @@ $(function() {
         case 'About Us':
             $('#about').addClass('active');
             break;
-        case 'Contact Us':
+        case 'Conctact Us':
             $('#contact').addClass('active');
             break;
         case 'All Products':
             $('#listProducts').addClass('active');
             break;
-        case 'Manage Products':
+        case 'Manage Product':
             $('#manageProducts').addClass('active');
             break;
+
         default:
             if(menu == "Home") break;
             $('#listProducts').addClass('active');
