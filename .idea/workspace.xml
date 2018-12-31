@@ -6,14 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="">
+    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="adding css slider 2">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootboxx.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +45,7 @@
     <session id="255018662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -54,26 +58,27 @@
           <entry key="project.open.time.66" value="2" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.70" value="2" />
-          <entry key="project.open.time.74" value="2" />
+          <entry key="project.open.time.74" value="3" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.77" value="2" />
           <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="103" />
           <entry key="error" value="1" />
-          <entry key="java" value="5328" />
+          <entry key="java" value="5358" />
           <entry key="jquery" value="1" />
-          <entry key="js" value="586" />
-          <entry key="jsp" value="4195" />
+          <entry key="js" value="1088" />
+          <entry key="jsp" value="4461" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="685" />
+          <entry key="txt" value="687" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="945" />
         </counts>
@@ -81,10 +86,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="103" />
-          <entry key="JAVA" value="5328" />
-          <entry key="JSP" value="4195" />
-          <entry key="JavaScript" value="586" />
-          <entry key="PLAIN_TEXT" value="687" />
+          <entry key="JAVA" value="5358" />
+          <entry key="JSP" value="4461" />
+          <entry key="JavaScript" value="1088" />
+          <entry key="PLAIN_TEXT" value="689" />
           <entry key="SQL" value="150" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="945" />
@@ -94,12 +99,12 @@
         <counts>
           <entry key="XML" value="1" />
           <entry key="class" value="10" />
-          <entry key="css" value="51" />
+          <entry key="css" value="52" />
           <entry key="error" value="1" />
-          <entry key="java" value="323" />
+          <entry key="java" value="325" />
           <entry key="jquery" value="1" />
-          <entry key="js" value="75" />
-          <entry key="jsp" value="244" />
+          <entry key="js" value="93" />
+          <entry key="jsp" value="255" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="2" />
           <entry key="svg" value="2" />
@@ -110,10 +115,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="CSS" value="51" />
-          <entry key="JAVA" value="323" />
-          <entry key="JSP" value="244" />
-          <entry key="JavaScript" value="75" />
+          <entry key="CSS" value="52" />
+          <entry key="JAVA" value="325" />
+          <entry key="JSP" value="255" />
+          <entry key="JavaScript" value="93" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RNG Compact" value="1" />
           <entry key="SQL" value="2" />
@@ -134,15 +139,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="147" column="55" selection-start-line="147" selection-start-column="55" selection-end-line="147" selection-end-column="55" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="454">
+              <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1965">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
@@ -154,9 +165,9 @@
       <list>
         <option value="jsf" />
         <option value="Interface" />
-        <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -182,13 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/CategoryDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/websystique/springmvc/test.java" />
@@ -228,10 +232,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/util/FileUploadUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/validation/ProductValidator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrapp.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/bootboxx.min.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/script.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lol.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
       </list>
     </option>
@@ -257,9 +268,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="24" />
-    <option name="width" value="961" />
+    <option name="x" value="65" />
+    <option name="y" value="78" />
+    <option name="width" value="890" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -295,6 +306,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,15 +345,6 @@
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,7 +369,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -391,22 +394,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546196000563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546268263654" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -417,19 +415,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.osgi.project.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets/images" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/MET-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/js" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp/assets/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/assets" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/MET-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -470,22 +468,6 @@
       <option name="PACKAGE_NAME" value="com.websystique.springmvc.test" />
       <option name="MAIN_CLASS_NAME" value="com.websystique.springmvc.test.CategoryTestCase" />
       <option name="METHOD_NAME" value="tesrGetCategory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryTestCase.testAddCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Shop-Online" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.websystique.springmvc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.websystique.springmvc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.websystique.springmvc.test.CategoryTestCase" />
-      <option name="METHOD_NAME" value="testAddCategory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -667,21 +649,101 @@
         </option>
       </method>
     </configuration>
+    <configuration name="lol.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.134" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/lol.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JavaNew:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="JavaNew:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JavaNew" />
+        <option name="HTTP_PORT" value="8086" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36513" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JavaNew:war exploded" />
+          <artifact name="JavaNew:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="JUnit.CategoryTestCase" />
-      <item itemvalue="JUnit.CategoryTestCase.testAddCategory" />
       <item itemvalue="JUnit.CategoryTestCase.tesrGetCategory" />
       <item itemvalue="JUnit.CategoryTestCase.testList" />
       <item itemvalue="JUnit.ProductTestCase" />
+      <item itemvalue="Tomcat Server.lol.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.lol.jsp" />
         <item itemvalue="JUnit.ProductTestCase" />
         <item itemvalue="JUnit.CategoryTestCase" />
         <item itemvalue="JUnit.CategoryTestCase.testList" />
         <item itemvalue="JUnit.CategoryTestCase.tesrGetCategory" />
-        <item itemvalue="JUnit.CategoryTestCase.testAddCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -722,7 +784,9 @@
       <workItem from="1545896520752" duration="32056000" />
       <workItem from="1545983828489" duration="23699000" />
       <workItem from="1546073309612" duration="26047000" />
-      <workItem from="1546163815916" duration="25201000" />
+      <workItem from="1546163815916" duration="32249000" />
+      <workItem from="1546241225468" duration="15027000" />
+      <workItem from="1546275008194" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -983,7 +1047,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546190175687</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="adding css slider 2">
+      <created>1546196015094</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1546196015094</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1019,7 +1090,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368296000" />
+    <option name="totallyTimeSpent" value="390968000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1031,7 +1102,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="24" width="961" height="1056" extended-state="0" />
+    <frame x="65" y="78" width="991" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -1040,7 +1112,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.28095734" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.28254288" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -1051,8 +1123,8 @@
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.33859095" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.340694" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3381001" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1078,19 +1150,19 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.3065539" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.27833003" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.20543478" side_tool="true" weight="0.19768664" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49824253" weight="0.40858018" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49824253" weight="0.4079916" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.33859095" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.1425641" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3381001" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.31966352" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1116,7 +1188,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updating URL" />
     <MESSAGE value="/only televison bootstrap button working" />
     <MESSAGE value="omg i wrong din't set" />
     <MESSAGE value="connect to database, configuration file, hibernate, H2" />
@@ -1141,59 +1212,10 @@
     <MESSAGE value="File Upload" />
     <MESSAGE value="validation for file nad bug for image path!" />
     <MESSAGE value="adding css slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css slider" />
+    <MESSAGE value="adding css slider 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Throwable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-892">
-          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar!/org/hibernate/query/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/doimpl/ProductDAO.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/websystique/springmvc/test/CategoryTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/websystique/springmvc/test/ProductTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1278,9 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,13 +1318,6 @@
           <folding>
             <element signature="n#style#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1369,14 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,9 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,9 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,26 +1409,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Employee.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1442,11 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3067#3068#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1454,11 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1476,56 +1449,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/bootstrapp.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="230">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="720">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="66" column="80" lean-forward="true" selection-start-line="66" selection-start-column="80" selection-end-line="66" selection-end-column="80" />
+        <state relative-caret-position="-3283">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/bootboxx.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="497">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/script.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lol.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="147" column="55" selection-start-line="147" selection-start-column="55" selection-end-line="147" selection-end-column="55" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="454">
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>

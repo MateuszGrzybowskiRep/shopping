@@ -32,7 +32,7 @@
     <!-- cos nie czyta-->
     <link href="${css}/assets/css/bootstrap-theme.css" rel="stylesheet">
 
-        <!-- cos nie czyta-->
+    <!-- cos nie czyta-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
@@ -48,37 +48,37 @@
 <body>
 
 <!-- Navigation -->
-<%@include file="./shared/navbar.jsp"%>
+<%@include file="./shared/navbar.jsp" %>
 
 <!--when ucer pick home then -->
 <c:if test="${userClickHome== true}">
-<%@include file="home.jsp"%>
+    <%@include file="home.jsp" %>
 </c:if>
 
 <c:if test="${userClickAbout== true}">
-    <%@include file="about.jsp"%>
+    <%@include file="about.jsp" %>
 </c:if>
 <!--load when user pick load-->
 <c:if test="${userClickContact== true}">
-    <%@include file="contact.jsp"%>
+    <%@include file="contact.jsp" %>
 </c:if>
 
 <!--load when user pick contact-->
 <c:if test="${userClickAllProducts== true or userClickCategoryProducts== true}">
-    <%@include file="listProducts.jsp"%>
+    <%@include file="listProducts.jsp" %>
 </c:if>
 
 <c:if test="${userClickShowProduct== true}">
-    <%@include file="singleProduct.jsp"%>
+    <%@include file="singleProduct.jsp" %>
 </c:if>
 
 <c:if test="${userClickManageProducts== true}">
-    <%@include file="manageProducts.jsp"%>
+    <%@include file="manageProducts.jsp" %>
 </c:if>
 
 
 <!--footer-->
-<%@include file="./shared/footer.jsp"%>
+<%@include file="./shared/footer.jsp" %>
 <!-- /.container -->
 <!-- jQuery -->
 <script src="${js}/jquery.js"></script>
@@ -92,7 +92,9 @@
 <!--moj js-->
 <script src="${js}/myapp.js"></script>
 
-
+<!--Bootbox-->
+<script src="${js}/bootboxx.min.js"></script>
+<script src="${js}/bootbox.min.js"></script>
 
 
 </body>

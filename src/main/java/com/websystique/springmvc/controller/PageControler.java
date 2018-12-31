@@ -42,6 +42,13 @@ public class PageControler {
         mv.addObject("userClickAbout", true);
         return mv;
     }
+//to delate
+    @RequestMapping(value = "/lol")
+    public ModelAndView acoutt() {
+        ModelAndView mv = new ModelAndView("lol");
+        return mv;
+    }
+
     @RequestMapping(value = "/contact")
     public ModelAndView contact() {
         ModelAndView mv = new ModelAndView("page");

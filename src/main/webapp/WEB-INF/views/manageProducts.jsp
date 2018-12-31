@@ -1,12 +1,13 @@
 <%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
 
+
 <div class="container">
     <div class="row">
         <c:if test="${not empty message}">
             <div class="col-md-12">
                 <div class="alert alert-success alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ${message}
+                        ${message}
                 </div>
             </div>
         </c:if>
@@ -18,17 +19,18 @@
                     <h4>Product</h4>
                 </div>
                 <div class="panel-body">
-                    <sf:form class="form-horizontal" modelAttribute="product" action="${contextRoot}/manage/products" method="post" enctype="multipart/form-data">
+                    <sf:form class="form-horizontal" modelAttribute="product" action="${contextRoot}/manage/products"
+                             method="post" enctype="multipart/form-data">
 
-                        <div class="form-group" >
-                             <label class="control-label col-md-4" for="name">Enter Product Name</label>
-                                    <div class="col-md-8">
-                                        <sf:input type="text" path="name" id="name" placeholder="Name" class="form-control"/>
-                                        <sf:errors path="name" cssClass="help-block" element="em"/>
-                                    </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4" for="name">Enter Product Name</label>
+                            <div class="col-md-8">
+                                <sf:input type="text" path="name" id="name" placeholder="Name" class="form-control"/>
+                                <sf:errors path="name" cssClass="help-block" element="em"/>
+                            </div>
                         </div>
 
-                        <div class="form-group" >
+                        <div class="form-group">
                             <label class="control-label col-md-4" for="brand">Enter Brand Name</label>
                             <div class="col-md-8">
                                 <sf:input type="text" path="brand" id="brand" placeholder="Brand" class="form-control"/>
@@ -36,26 +38,29 @@
                             </div>
                         </div>
 
-                        <div class="form-group" >
+                        <div class="form-group">
                             <label class="control-label col-md-4" for="description">Product Description</label>
                             <div class="col-md-8">
-                                <sf:textarea type="text" path="description" id="description" rows="5" placeholder="Description" class="form-control"/>
+                                <sf:textarea type="text" path="description" id="description" rows="5"
+                                             placeholder="Description" class="form-control"/>
                                 <sf:errors path="description" cssClass="help-block" element="em"/>
                             </div>
                         </div>
 
                         <div class="form-group">
-                              <label class="control-label col-md-4" for="unitPrice">Enter Unit Price</label>
-                                    <div class="col-md-8">
-                                         <sf:input type="number" path="unitPrice" id="unitPrice" placeholder="Unit Price" class="form-control"/>
-                                         <sf:errors path="unitPrice" cssClass="help-block" element="em"/>
-                                    </div>
+                            <label class="control-label col-md-4" for="unitPrice">Enter Unit Price</label>
+                            <div class="col-md-8">
+                                <sf:input type="number" path="unitPrice" id="unitPrice" placeholder="Unit Price"
+                                          class="form-control"/>
+                                <sf:errors path="unitPrice" cssClass="help-block" element="em"/>
+                            </div>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label col-md-4" for="quantity">Quantity Available</label>
                             <div class="col-md-8">
-                                <sf:input type="number" path="quantity" id="quantity" placeholder="Quantity Available" class="form-control"/>
+                                <sf:input type="number" path="quantity" id="quantity" placeholder="Quantity Available"
+                                          class="form-control"/>
                             </div>
                         </div>
 
@@ -75,7 +80,7 @@
                                            items="${categories}"
                                            itemLabel="name"
                                            itemValue="id"
-                               />
+                                />
                             </div>
                         </div>
 
@@ -120,7 +125,8 @@
                     <tbody>
                     <tr>
                         <td>6</td>
-                        <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg" alt=" Macbook Pro" /></td>
+                        <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg"
+                                 alt=" Macbook Pro"/></td>
                         <td>Macbook Pro</td>
                         <td>3</td>
                         <td>&#8377;5400.00</td>
@@ -139,9 +145,10 @@
 
                     <tr>
                         <td>6</td>
-                        <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg" alt=" Macbook Pro" /></td>
+                        <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg"
+                                 alt=" Macbook Pro"/></td>
                         <td>Macbook Pro</td>
-                        <td>3</td>
+                        <td>4</td>
                         <td>&#8377;5400.00</td>
                         <td>
                             <label class="switch">
@@ -170,9 +177,13 @@
                     </tr>
                     </tfoot>
 
+
                 </table>
             </div>
         </div>
     </div>
+
+
+
 
 </div>
