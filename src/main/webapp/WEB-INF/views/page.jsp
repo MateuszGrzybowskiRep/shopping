@@ -21,7 +21,7 @@
 
     <script>
         window.menu = '${title}';
-        window.contextRoot = '${contextRoot}'; /
+        window.contextRoot = '${contextRoot}'
 
     </script>
 
@@ -34,6 +34,7 @@
 
     <!-- cos nie czyta-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 
     <!-- Custom CSS -->
     <link href="${css}/myapp.css" rel="stylesheet">
