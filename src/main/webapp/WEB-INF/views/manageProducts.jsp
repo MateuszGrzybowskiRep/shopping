@@ -102,13 +102,11 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
             <h3>Avilable Product</h3>
             <hr/>
-        </div>
-        <div class="col-md-12">
-            <div style="overflow:auto">
-                <table id="productListTablee" class="table table-striped table-bordered">
+
+        <div class="col-xs-18">
+                <table id="adminProductsTable" class="table table-striped table-bordered">
 
                     <thead>
                     <tr>
@@ -117,6 +115,8 @@
                         <th>Brand</th>
                         <th>Price</th>
                         <th>Qty. Available</th>
+                        <th></th>
+                        <th></th>
                         <th></th>
                     </tr>
                     </thead>
@@ -130,12 +130,13 @@
                         <th>Price</th>
                         <th>Qty. Available</th>
                         <th></th>
+                        <th></th>
+                        <th></th>
                     </tr>
                     </tfoot>
 
 
                 </table>
-            </div>
         </div>
     </div>
 
