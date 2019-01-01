@@ -122,7 +122,7 @@
                     </tr>
                     </thead>
 
-                    <tbody>
+               <!-- <tbody>
                     <tr>
                         <td>6</td>
                         <td><img class="adminDataTableImg" src="${contextRoot}/resources/images/PRDMNO123PQRX.jpg"
@@ -163,7 +163,7 @@
                         </td>
                     </tr>
 
-                    </tbody>
+                    </tbody> -->
 
                     <tfoot>
                     <tr>

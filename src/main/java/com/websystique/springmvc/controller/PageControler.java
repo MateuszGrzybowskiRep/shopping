@@ -56,7 +56,7 @@ public class PageControler {
         mv.addObject("userClickContact", true);
         return mv;
     }
-    @RequestMapping(value ="/show/all/products")
+    @RequestMapping(value ="/show/all/product")
     public ModelAndView showAllProducts() {
         ModelAndView mv = new ModelAndView("page");
         mv.addObject("title", "All Products");

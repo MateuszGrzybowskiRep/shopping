@@ -6,18 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="adding css slider 2">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootboxx.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" afterDir="false" />
+    <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="adding css slider 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/PageControler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,14 +43,14 @@
     <session id="255018662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.61" value="3" />
+          <entry key="project.open.time.61" value="4" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.65" value="2" />
           <entry key="project.open.time.66" value="2" />
@@ -66,19 +64,19 @@
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="103" />
           <entry key="error" value="1" />
-          <entry key="java" value="5358" />
+          <entry key="java" value="5360" />
           <entry key="jquery" value="1" />
-          <entry key="js" value="1088" />
-          <entry key="jsp" value="4461" />
+          <entry key="js" value="1407" />
+          <entry key="jsp" value="4479" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="687" />
+          <entry key="txt" value="689" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="945" />
         </counts>
@@ -86,10 +84,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="103" />
-          <entry key="JAVA" value="5358" />
-          <entry key="JSP" value="4461" />
-          <entry key="JavaScript" value="1088" />
-          <entry key="PLAIN_TEXT" value="689" />
+          <entry key="JAVA" value="5360" />
+          <entry key="JSP" value="4479" />
+          <entry key="JavaScript" value="1407" />
+          <entry key="PLAIN_TEXT" value="691" />
           <entry key="SQL" value="150" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="945" />
@@ -101,10 +99,10 @@
           <entry key="class" value="10" />
           <entry key="css" value="52" />
           <entry key="error" value="1" />
-          <entry key="java" value="325" />
+          <entry key="java" value="334" />
           <entry key="jquery" value="1" />
-          <entry key="js" value="93" />
-          <entry key="jsp" value="255" />
+          <entry key="js" value="103" />
+          <entry key="jsp" value="258" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="2" />
           <entry key="svg" value="2" />
@@ -116,9 +114,9 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="CSS" value="52" />
-          <entry key="JAVA" value="325" />
-          <entry key="JSP" value="255" />
-          <entry key="JavaScript" value="93" />
+          <entry key="JAVA" value="334" />
+          <entry key="JSP" value="258" />
+          <entry key="JavaScript" value="103" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RNG Compact" value="1" />
           <entry key="SQL" value="2" />
@@ -141,19 +139,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+            <state relative-caret-position="-552">
+              <caret line="138" column="15" lean-forward="true" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
+              <folding>
+                <element signature="e#61#637#0" />
+                <element signature="e#2988#3738#0" />
+                <element signature="e#3730#3746#0" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1965">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="429">
+              <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="58" column="47" lean-forward="true" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/doimpl/CategoryDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/websystique/springmvc/test/ProductTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/config/HibernateConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/dataTables.bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.js" />
@@ -225,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/doimpl/ProductDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/ProductDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/util/fileUpload.java" />
@@ -238,12 +252,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/script.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lol.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" />
       </list>
     </option>
   </component>
@@ -267,10 +283,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="78" />
-    <option name="width" value="890" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="895" />
+    <option name="y" value="24" />
+    <option name="width" value="1016" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -305,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -345,6 +360,15 @@
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -361,15 +385,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -398,13 +413,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546268263654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546369323956" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -646,6 +662,7 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JavaNew:war exploded" />
           <artifact name="JavaNew:war" />
+          <artifact name="Spring-Shop-Online:war" />
         </option>
       </method>
     </configuration>
@@ -786,7 +803,8 @@
       <workItem from="1546073309612" duration="26047000" />
       <workItem from="1546163815916" duration="32249000" />
       <workItem from="1546241225468" duration="15027000" />
-      <workItem from="1546275008194" duration="597000" />
+      <workItem from="1546275008194" duration="5557000" />
+      <workItem from="1546341770204" duration="19542000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -1054,7 +1072,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546196015094</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="adding css slider 3">
+      <created>1546288032759</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1546288032759</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1090,7 +1115,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390968000" />
+    <option name="totallyTimeSpent" value="415470000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1102,7 +1127,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="78" width="991" height="1056" extended-state="0" />
+    <frame x="895" y="24" width="1016" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -1112,7 +1137,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.28254288" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.2007874" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -1124,7 +1149,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3381001" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.2691903" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1188,7 +1213,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="/only televison bootstrap button working" />
     <MESSAGE value="omg i wrong din't set" />
     <MESSAGE value="connect to database, configuration file, hibernate, H2" />
     <MESSAGE value="Junit test connection working" />
@@ -1213,23 +1237,10 @@
     <MESSAGE value="validation for file nad bug for image path!" />
     <MESSAGE value="adding css slider" />
     <MESSAGE value="adding css slider 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 2" />
+    <MESSAGE value="adding css slider 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1246,13 +1257,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" lean-forward="true" selection-end-line="15306" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1300,6 +1304,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,16 +1318,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1381,6 +1378,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,13 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/util/FileUploadUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1418,13 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1485,48 +1476,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/script.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lol.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="-510">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="-619">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="460">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        <state relative-caret-position="429">
+          <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="58" column="47" lean-forward="true" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="-552">
+          <caret line="138" column="15" lean-forward="true" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
+          <folding>
+            <element signature="e#61#637#0" />
+            <element signature="e#2988#3738#0" />
+            <element signature="e#3730#3746#0" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

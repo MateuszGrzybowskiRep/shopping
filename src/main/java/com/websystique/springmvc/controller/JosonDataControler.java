@@ -13,11 +13,16 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/json/data")
-
 public class JosonDataControler {
     @Autowired
     private ProductDAO productDAO;
 
+    @RequestMapping("/admin/all/products")
+    @ResponseBody
+    public List<Product> getAllProductsList() {
+        return productDAO.list();
+
+    }
 
     @RequestMapping("/all/products")
     @ResponseBody
