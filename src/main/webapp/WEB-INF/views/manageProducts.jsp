@@ -12,7 +12,6 @@
             </div>
         </c:if>
 
-
         <div class="col-md-offset-2 col-md-8">
             <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -79,8 +78,13 @@
                                 <sf:select class="form-control" id="categoryId" path="categoryId"
                                            items="${categories}"
                                            itemLabel="name"
-                                           itemValue="id"
-                                />
+                                           itemValue="id"/>
+                                <c:if test="${product.id==0}">
+                                    <div class="text-right">
+                                    <br/>
+                                    <button type="button" data-toggle="modal" data-target="#myCategoryModal" class="btn btn-warning btn-xm">Add Category</button>
+                                    </div>
+                                </c:if>
                             </div>
                         </div>
 
@@ -121,7 +125,6 @@
                     </tr>
                     </thead>
 
-
                     <tfoot>
                     <tr>
                         <th></th>
@@ -140,7 +143,19 @@
         </div>
     </div>
 
-
-
+    <div class="modal fade" id="myCategoryModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <h4 class="modal-title">Add New Category</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
