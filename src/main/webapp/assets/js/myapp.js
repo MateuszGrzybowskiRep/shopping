@@ -102,35 +102,6 @@ $(function() {
         }
 
     }
-    $('.switch input[type="checkbox"]').on('change' , function() {
-        var checkbox = $(this);
-        var checked = this.checked;
-        var dMsg = (this.checked)? 'You want to activate the Product?':
-            'You want to de-activate the Product?';
-
-        bootbox.confirm({
-            size: 'medium',
-            title: 'Product Activation/Deactivation',
-            message: dMsg,
-            callback: function(confirmed) {
-                if(confirmed){
-                    bootbox.alert({
-                        title: 'Information',
-                        size: 'medium',
-                        message: 'are you sure?'
-
-                    });
-
-
-
-                }
-                else {
-                    checkbox.prop('checked',!checked);
-                }
-
-            }
-        });
-    });
 //new
 
     var $adminProductsTable = $('#adminProductsTable');
@@ -215,25 +186,25 @@ $(function() {
                 var api = this.api();
                 api.$('.switch input[type="checkbox"]').on('change' , function() {
                     var checkbox = $(this);
-                    var checked = this.checked;
+                    var checked = checkbox.prop('checked');
                     var dMsg = (this.checked)? 'You want to activate the Product?':
                         'You want to de-activate the Product?';
-
+                    var value = checkbox.prop('value');
                     bootbox.confirm({
                         size: 'medium',
                         title: 'Product Activation/Deactivation',
                         message: dMsg,
                         callback: function(confirmed) {
                             if(confirmed){
-                                bootbox.alert({
-                                    title: 'Information',
-                                    size: 'medium',
-                                    message: 'are you sure?'
+                                var activationUrl = window.contextRoot + '/manage/product/'+ value + '/activation';
 
+                                $.post(activationUrl, function (data) {
+                                    bootbox.alert({
+                                        title: 'Information',
+                                        size: 'medium',
+                                        message: data
+                                    });
                                 });
-
-
-
                             }
                             else {
                                 checkbox.prop('checked',!checked);
@@ -242,6 +213,8 @@ $(function() {
                         }
                     });
                 });
+
+
             }
         });
 

@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,12 +67,12 @@
         <counts>
           <entry key="css" value="103" />
           <entry key="error" value="1" />
-          <entry key="java" value="5370" />
+          <entry key="java" value="5576" />
           <entry key="jquery" value="1" />
-          <entry key="js" value="1470" />
+          <entry key="js" value="1854" />
           <entry key="jsp" value="4498" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="691" />
+          <entry key="txt" value="714" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="945" />
         </counts>
@@ -78,10 +80,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="103" />
-          <entry key="JAVA" value="5370" />
+          <entry key="JAVA" value="5576" />
           <entry key="JSP" value="4498" />
-          <entry key="JavaScript" value="1470" />
-          <entry key="PLAIN_TEXT" value="693" />
+          <entry key="JavaScript" value="1854" />
+          <entry key="PLAIN_TEXT" value="716" />
           <entry key="SQL" value="150" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="945" />
@@ -93,7 +95,7 @@
           <entry key="class" value="10" />
           <entry key="css" value="52" />
           <entry key="error" value="1" />
-          <entry key="java" value="350" />
+          <entry key="java" value="351" />
           <entry key="jquery" value="1" />
           <entry key="js" value="118" />
           <entry key="jsp" value="279" />
@@ -108,7 +110,7 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="CSS" value="52" />
-          <entry key="JAVA" value="350" />
+          <entry key="JAVA" value="351" />
           <entry key="JSP" value="279" />
           <entry key="JavaScript" value="118" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -132,7 +134,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
@@ -141,22 +143,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+            <state relative-caret-position="191">
+              <caret line="188" column="34" lean-forward="true" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="531">
+              <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,13 +249,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dto/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/fdssfd.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/dfssfddsffds.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" />
       </list>
     </option>
   </component>
@@ -275,7 +282,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="75" />
     <option name="y" value="24" />
-    <option name="width" value="958" />
+    <option name="width" value="955" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -342,6 +349,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -795,7 +811,7 @@
       <workItem from="1546241225468" duration="15027000" />
       <workItem from="1546275008194" duration="5557000" />
       <workItem from="1546341770204" duration="35660000" />
-      <workItem from="1546441782877" duration="613000" />
+      <workItem from="1546441782877" duration="5981000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -1098,7 +1114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546386259143</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="boot box working again">
+      <created>1546449815595</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1546449815595</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1134,7 +1157,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432201000" />
+    <option name="totallyTimeSpent" value="437569000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1146,7 +1169,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="24" width="958" height="1056" extended-state="4" />
+    <frame x="75" y="24" width="955" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -1156,7 +1179,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.15762004" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.16020942" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -1168,7 +1191,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3381001" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.2849632" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.16403785" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1232,7 +1255,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Junit test connection working" />
     <MESSAGE value="Junit test, connection with database working" />
     <MESSAGE value="CRUD and junit test" />
     <MESSAGE value="CRUD working test done" />
@@ -1257,7 +1279,8 @@
     <MESSAGE value="adding css slider 3" />
     <MESSAGE value="adding css slider 4" />
     <MESSAGE value="adding css slider 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 5" />
+    <MESSAGE value="boot box working again" />
+    <option name="LAST_COMMIT_MESSAGE" value="boot box working again" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js">
@@ -1515,18 +1538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/PageControler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1572,19 +1583,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="345">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/ManagmentControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="188" column="34" lean-forward="true" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
