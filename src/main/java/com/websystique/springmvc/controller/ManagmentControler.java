@@ -54,26 +54,45 @@ public class ManagmentControler {
     public List<Category> getCategories(){
         return categoryDAO.list();
     }
+    @RequestMapping(value = "/{id}/product", method = RequestMethod.GET)
+    public ModelAndView showEditProducts(@PathVariable int id) {
+        ModelAndView mv = new ModelAndView("page");
+        mv.addObject("userClickManageProducts",true);
+        mv.addObject("title","Manage Product");
+        Product nProduct = productDAO.get(id);
+
+        mv.addObject("product",nProduct);
+
+        return mv;
+    }
 
     @RequestMapping(value = "/products",method = RequestMethod.POST)
     public String handleProductSubmission(@Valid @ModelAttribute("product")Product mProduct, BindingResult result, Model model, HttpServletRequest request){
+       if (mProduct.getId()==0){
+           new ProductValidator().validate(mProduct,result);
+       }else {
+           if(!mProduct.getFile().getOriginalFilename().equals("")){
+               new ProductValidator().validate(mProduct,result);
+           }
+       }
+
         if(result.hasErrors()){
-
-            new ProductValidator().validate(mProduct,result);
-
             model.addAttribute("userClickManageProducts",true);
             model.addAttribute("title","Manage Product");
             model.addAttribute("massage","Validation failed for Product Submission!");
-
-
             return "page";
         }
-
         logger.info(mProduct.toString());
-        productDAO.add(mProduct);
+
+        if(mProduct.getId() == 0){
+            productDAO.add(mProduct);
+        }
+        else {
+            productDAO.update(mProduct);
+
+        }
         if(!mProduct.getFile().getOriginalFilename().equals("")){
             FileUploadUtility.uploadFile(request, mProduct.getFile(),mProduct.getCode());
-
         }
 
         return "redirect:/manage/products?operation=product";
