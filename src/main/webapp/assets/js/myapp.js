@@ -210,7 +210,39 @@ $(function() {
                     }
                 }
 
-            ]
+            ],
+            initComplete: function () {
+                var api = this.api();
+                api.$('.switch input[type="checkbox"]').on('change' , function() {
+                    var checkbox = $(this);
+                    var checked = this.checked;
+                    var dMsg = (this.checked)? 'You want to activate the Product?':
+                        'You want to de-activate the Product?';
+
+                    bootbox.confirm({
+                        size: 'medium',
+                        title: 'Product Activation/Deactivation',
+                        message: dMsg,
+                        callback: function(confirmed) {
+                            if(confirmed){
+                                bootbox.alert({
+                                    title: 'Information',
+                                    size: 'medium',
+                                    message: 'are you sure?'
+
+                                });
+
+
+
+                            }
+                            else {
+                                checkbox.prop('checked',!checked);
+                            }
+
+                        }
+                    });
+                });
+            }
         });
 
     }

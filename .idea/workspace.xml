@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f581026a-cade-4259-a5ee-c7084bb42137" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring4MVCHelloWorldDemo/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +36,7 @@
     <session id="255018662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -52,6 +50,7 @@
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.70" value="2" />
           <entry key="project.open.time.74" value="3" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.77" value="2" />
           <entry key="project.open.time.78" value="1" />
@@ -59,7 +58,7 @@
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -71,7 +70,7 @@
           <entry key="js" value="1470" />
           <entry key="jsp" value="4498" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="690" />
+          <entry key="txt" value="691" />
           <entry key="xhtml" value="7" />
           <entry key="xml" value="945" />
         </counts>
@@ -82,7 +81,7 @@
           <entry key="JAVA" value="5370" />
           <entry key="JSP" value="4498" />
           <entry key="JavaScript" value="1470" />
-          <entry key="PLAIN_TEXT" value="692" />
+          <entry key="PLAIN_TEXT" value="693" />
           <entry key="SQL" value="150" />
           <entry key="XHTML" value="7" />
           <entry key="XML" value="945" />
@@ -132,15 +131,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="117" column="33" lean-forward="true" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="372">
+              <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -148,11 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="198" column="18" lean-forward="true" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2970">
+              <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -160,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="225">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,7 +273,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
+    <option name="x" value="75" />
     <option name="y" value="24" />
     <option name="width" value="958" />
     <option name="height" value="1056" />
@@ -317,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,13 +403,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546385783966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546386246581" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -801,7 +794,8 @@
       <workItem from="1546163815916" duration="32249000" />
       <workItem from="1546241225468" duration="15027000" />
       <workItem from="1546275008194" duration="5557000" />
-      <workItem from="1546341770204" duration="35611000" />
+      <workItem from="1546341770204" duration="35660000" />
+      <workItem from="1546441782877" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="adding Bootstrap, controller, configuration file">
       <created>1545073383148</created>
@@ -1097,7 +1091,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546382170115</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="adding css slider 5">
+      <created>1546386259142</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1546386259143</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1133,7 +1134,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431539000" />
+    <option name="totallyTimeSpent" value="432201000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1145,7 +1146,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="958" height="1056" extended-state="4" />
+    <frame x="75" y="24" width="958" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -1154,7 +1156,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.14547837" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.25365344" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.85452163" visible="true" weight="0.15762004" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -1166,7 +1168,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3381001" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.2849632" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.7945652" visible="true" weight="0.2849632" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.2167116" weight="0.1799787" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1230,7 +1232,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="connect to database, configuration file, hibernate, H2" />
     <MESSAGE value="Junit test connection working" />
     <MESSAGE value="Junit test, connection with database working" />
     <MESSAGE value="CRUD and junit test" />
@@ -1255,7 +1256,8 @@
     <MESSAGE value="adding css slider 2" />
     <MESSAGE value="adding css slider 3" />
     <MESSAGE value="adding css slider 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 4" />
+    <MESSAGE value="adding css slider 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding css slider 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js">
@@ -1378,14 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1571,32 +1565,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/myapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="198" column="18" lean-forward="true" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="2970">
+          <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/JosonDataControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="117" column="33" lean-forward="true" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
