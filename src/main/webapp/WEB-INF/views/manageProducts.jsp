@@ -153,7 +153,7 @@
                     <h4 class="modal-title">Add New Category</h4>
                 </div>
                 <div class="modal-body">
-                    <sf:form modelAttribute="category" action="${contextRoot}/manage/category"
+                    <sf:form id="categoryForm" modelAttribute="category" action="${contextRoot}/manage/category"
                        method="post" class="form-horizontal">
 
                         <div class="form-group">
