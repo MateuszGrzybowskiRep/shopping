@@ -45,15 +45,15 @@ public class ManagmentControler {
             if(operation.equals("product")){
                 mv.addObject("message", "Product Submitted Successfuly");
             }
+            else if (operation.equals("category")){
+                mv.addObject("message", "Category Submitted Successfuly");
+            }
         }
 
         return mv;
     }
 
-    @ModelAttribute("categories")
-    public List<Category> getCategories(){
-        return categoryDAO.list();
-    }
+
     @RequestMapping(value = "/{id}/product", method = RequestMethod.GET)
     public ModelAndView showEditProducts(@PathVariable int id) {
         ModelAndView mv = new ModelAndView("page");
@@ -107,4 +107,22 @@ public class ManagmentControler {
         return (isActive)? "You have succesfully deactived the product with id" + product.getId()
                             : "You have succesfully deactived the product with id" + product.getId();
     }
+    @RequestMapping(value = "/category",method = RequestMethod.POST)
+    public String handleCategorySubmission(@ModelAttribute Category category){
+        categoryDAO.add(category);
+
+        return "redirect:/manage/products?operation=category";
+
+    }
+
+
+    @ModelAttribute("categories")
+    public List<Category> getCategories(){
+        return categoryDAO.list();
+    }
+    @ModelAttribute("category")
+    public Category getCategory(){
+        return new Category();
+    }
+
 }
