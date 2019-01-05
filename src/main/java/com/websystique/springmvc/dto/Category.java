@@ -5,12 +5,23 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 @Entity
-    @Table(name = "category")
+@Table
 public class Category implements Serializable {
 
-    /**
-     *
-     */
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String name;
+
+    private String description;
+
+    @Column(name = "image_url")
+    private String imageURL;
+
+    @Column(name = "is_active")
+    private boolean active = true;
     private static final long serialVersionUID = 1L;
 
     public int getId() {
@@ -44,8 +55,6 @@ public class Category implements Serializable {
         this.active = active;
     }
 
-
-
     @Override
     public String toString() {
         return "Category [id=" + id + ", name=" + name + ", description=" + description + ", imageURL=" + imageURL
@@ -53,23 +62,6 @@ public class Category implements Serializable {
     }
 
 
-
-    /*
-     * Private fields
-     * */
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-
-    private String name;
-
-    private String description;
-
-    @Column(name = "image_url")
-    private String imageURL;
-
-    @Column(name = "is_active")
-    private boolean active = true;
 
 
 }

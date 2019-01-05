@@ -7,10 +7,13 @@ import com.websystique.springmvc.dto.User;
 public interface UserDAO {
 
 
+
     boolean addUser(User user);
+
+    User getByEmail(String email);
 
     boolean addAddres(Address addres);
 
-    boolean addCart(Cart cart);
+    boolean updateCart(Cart cart);
 
 }

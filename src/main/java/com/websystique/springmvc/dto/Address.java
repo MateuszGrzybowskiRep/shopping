@@ -13,19 +13,21 @@ public class Address implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "address_line_one")
+    @Column
     private String addressLineOne;
-    @Column(name = "address_line_two")
+    @Column
     private String addressLineTwo;
     private String city;
     private String state;
     private String country;
-    @Column(name ="postal_code")
+    @Column
     private String postalCode;
-    @Column(name="is_shipping")
+    @Column
     private boolean shipping;
-    @Column(name="is_billing")
+    @Column
     private boolean billing;
+
+
 
     public static long getSerialVersionUID() {
         return serialVersionUID;

@@ -6,21 +6,28 @@ import java.io.Serializable;
 @Entity
 public class Cart implements Serializable {
 
-    /**
-     *
-     */
     private static final long serialVersionUID = 1L;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "grand_total")
+    @Column
     private double grandTotal;
-    @Column(name = "cart_lines")
+    @Column
     private int cartLines;
-
     public static long getSerialVersionUID() {
         return serialVersionUID;
+    }
+    @OneToOne
+    private User user;
+
+
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public int getId() {
@@ -55,4 +62,6 @@ public class Cart implements Serializable {
                 ", cartLines=" + cartLines +
                 '}';
     }
+
+
 }

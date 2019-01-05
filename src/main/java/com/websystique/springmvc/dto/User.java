@@ -5,27 +5,40 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "user_detail")
+@Table
 public class User implements Serializable {
 
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "first_name")
+    @Column
     private String firstName;
-    @Column(name = "last_name")
+    @Column
     private String lastName;
     private String email;
-    @Column(name = "contact_number")
+    @Column
     private String contactNumber;
     private String role;
     private String password;
     private boolean enabled = true;
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Cart cart;
+
+
+
+    public Cart getCart() {
+        return cart;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
+    }
 
     public int getId() {
         return id;
     }
+
 
     public void setId(int id) {
         this.id = id;
@@ -86,6 +99,7 @@ public class User implements Serializable {
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
+
 
     @Override
     public String toString() {

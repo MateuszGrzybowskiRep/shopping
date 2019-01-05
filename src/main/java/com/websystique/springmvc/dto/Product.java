@@ -21,30 +21,24 @@ public class Product  {
     private String name;
     @NotBlank(message = "Enter the Brand Name")
     private String brand;
-
     @JsonIgnore
     @NotBlank(message = "Enter the description Name")
     private String description;
-
     @Min(value = 1, message = "Enter the unit Price Name")
-    @Column(name = "unit_price")
+    @Column
     private double unitPrice;
     private int quantity;
-
     @JsonIgnore
-    @Column(name = "is_active")
+    @Column
     private boolean active;
-    @Column(name = "category_id"
-    )
+    @Column
     @JsonIgnore
     private int categoryId;
-    @Column(name = "supplier_id")
-
+    @Column
     @JsonIgnore
     private int supplierId;
     private int purchases;
     private int views;
-
     @Transient
     private MultipartFile file;
 
