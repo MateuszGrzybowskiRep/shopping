@@ -6,8 +6,6 @@ import java.io.Serializable;
 @Entity
 public class Address implements Serializable {
 
-
-
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -26,8 +24,16 @@ public class Address implements Serializable {
     private boolean shipping;
     @Column
     private boolean billing;
+    @ManyToOne
+    private User user;
 
+    public User getUser() {
+        return user;
+    }
 
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public static long getSerialVersionUID() {
         return serialVersionUID;

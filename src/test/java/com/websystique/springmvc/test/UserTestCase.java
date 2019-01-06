@@ -67,9 +67,9 @@ public class UserTestCase {
     @Test
     public void testAdd(){
         user = new User();
-        user.setFirstName("Mateusz");
+        user.setFirstName("Tomasz");
         user.setLastName("Grzybowski");
-        user.setEmail("mat@gmail.com");
+        user.setEmail("tom@gmail.com");
         user.setContactNumber("777888999");
         user.setRole("USER");
         user.setPassword("123");
