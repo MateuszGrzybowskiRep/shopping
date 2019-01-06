@@ -42,38 +42,24 @@
 
 <body>
 
-<!-- Navigation -->
-<%@include file="./shared/navbar.jsp" %>
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="">Home</a>
+            </div>
+        </div>
+    </nav>
 
-<!--when ucer pick home then -->
-<c:if test="${userClickHome== true}">
-    <%@include file="home.jsp" %>
-</c:if>
+    <div class="content">
+        <div class="container">
 
-<c:if test="${userClickAbout== true}">
-    <%@include file="about.jsp" %>
-</c:if>
-<!--load when user pick load-->
-<c:if test="${userClickContact== true}">
-    <%@include file="contact.jsp" %>
-</c:if>
+            <h3>Tr</h3>
 
-<!--load when user pick contact-->
-<c:if test="${userClickAllProducts== true or userClickCategoryProducts== true}">
-    <%@include file="listProducts.jsp" %>
-</c:if>
-
-<c:if test="${userClickShowProduct== true}">
-    <%@include file="singleProduct.jsp" %>
-</c:if>
-
-<c:if test="${userClickManageProducts== true}">
-    <%@include file="manageProducts.jsp" %>
-</c:if>
-
+        </div>
+    </div>
 
 <!--footer-->
-<%@include file="./shared/footer.jsp" %>
+<%@include file="../../shared/footer.jsp" %>
 <!-- jQuery -->
 <script src="${js}/jquery.js"></script>
 <script src="${js}/jquery.validate.js"></script>
