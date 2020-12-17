@@ -1,11 +1,9 @@
 ## Opis
-Ten projekt to internetowa aplikacja do zakupów online, opracowana w języku JAVA, z wykorzystaniem języka Java jako interfejsu użytkownika.
-
-Głównym celem „ZAKUPÓW ONLINE” jest usprawic uslugi Klientów i Sprzedawców. Zachowuje szczegóły płatności klientów, przyjęcia produktów, dodawania nowych klientów, produktów, a także aktualizuje, usuwa je. Przechowuje również szczegóły faktur wygenerowanych przez klienta i dokonanych przez niego płatności wraz ze wszystkimi szczegółami płatności, takimi jak karta kredytowa.
+Ten projekt to internetowa aplikacja do zakupów online, opracowana w języku JAVA. Głównym celem „ZAKUPÓW ONLINE” jest usprawic uslugi Klientów i Sprzedawców. Zachowuje szczegóły płatności klientów, przyjęcia produktów, dodawania nowych klientów, produktów, a także aktualizuje, usuwa je. Przechowuje również szczegóły faktur wygenerowanych przez klienta i dokonanych przez niego płatności wraz ze wszystkimi szczegółami płatności, takimi jak karta kredytowa.
 
 PRZEGLĄD ZAKUPÓW ONLINE:
 
-Centralną koncepcją aplikacji jest umożliwienie klientowi wirtualnego robienia zakupów przez Internet i umożliwienie klientom kupowania w sklepie dowolnych towarów i artykułów. Informacje dotyczące produktów są przechowywane na ???h2 po stronie serwera (sklepu). Serwer przetwarza klientów, a towary są wysyłane na podany przez nich adres.
+Aplikacja umożliwienie klientowi robienia zakupów przez Internet i umożliwienie klientom kupowania w sklepie dowolnych towarów i artykułów. Informacje dotyczące produktów są przechowywane na stronie serwera (sklepu). Serwer przetwarza klientów, a towary są wysyłane na podany przez nich adres.
 
 Aplikacja została zaprojektowana w dwóch modułach, najpierw jest przeznaczona dla klientów, którzy chcą kupić artykuły. Drugi jest przeznaczony dla właścicieli sklepów, którzy utrzymują i aktualizują informacje dotyczące artykułów i klientów.
 
@@ -16,33 +14,8 @@ Wprowadzanie danych do aplikacji odbywa się poprzez różne ekrany przeznaczone
 ## jeden
 
 # Przykład sklepu Java
-Typowe ćwiczenie w Javie, które pokazuje, jak zbudować prosty projekt obiektowy i przećwiczyć umiejętności, takie jak: jak wybrać odpowiedni typ danych do projektu, jak napisać czysty i spójny kod itp.
 
-Ten projekt zostanie napisany przy użyciu podejścia Java 8, a nie Java 7 i starszych. Gdy Java 9 zostanie wydana, być może w razie potrzeby zostaną wprowadzone niektóre z nowych funkcji Java.
-
-Używam również podejścia TDD do ukończenia tego projektu, ponieważ znalazłem ten naprawdę wygodny sposób tworzenia projektów w Javie. Dodatkowo staram się używać Travis CI do budowania i testowania projektów razem z Codacy, aby mój kod był czysty i spójny.
-## Plan akcji:
-  - [x] Wymaż fałszywe testy dla klas ** Product, Basket, Order, Inventory, Shop ** i odpowiednio je przepisz
-      - Klasa [x] ** ProductTest **
-      - Klasa [x] ** BasketTest **
-      - klasa [x] ** OrderTest **
-      - Klasa [x] ** InventoryTest **
-      - Klasa [x] ** ShopTest **
-      
-  - [x] Wypełnij wspomniane wyżej zajęcia, aby zobaczyć, jak działa aplikacja
-      - [x] ** Klasa produktu **
-      - Klasa [x] ** Basket **
-      - klasa [x] ** Order **
-      - Klasa [x] ** Inventory **
-      - Klasa [x] ** Shop **
-      
-  - [x] W prostej wersji takiego ćwiczenia, aby zapisać dane proponuje się zapisywanie danych do plików, jednak zapiszę to do PostgreSQL DB
-      - [x] Może zapisać koszyk w DB
-      - [x] Może zapisać zamówienie w DB
-      - [x] Może przywrócić koszyk z DB
-      - [x] Może przywrócić porządek z DB
-      
-  - [x] Jako część opcjonalną chciałbym wprowadzić system użytkownika: administrację i klientów. Pierwszy byłby w stanie zobaczyć wszystkie zrealizowane zamówienia i stan zapasów oraz ich całkowity koszt, podczas gdy klienci mogą wypełniać koszyki, składać zamówienia i wyświetlać tylko swój koszyk i zamówienia
+  - [x] 
       - [x] Administrator może
           - [x] Zobacz wszystkie dostępne produkty
           - [x] Zobacz całkowity koszt wszystkich produktów
@@ -117,20 +90,12 @@ Używam również podejścia TDD do ukończenia tego projektu, ponieważ znalaz�
               - [x] Testy GUI klienta
               - Testy [x] GUI administratora
               
-  - [] Jako część opcjonalną chciałbym t
 
-## dwa
-Podstawowym celem „ZAKUPÓW w Internecie” jest usprawnienie administracji Klientów i sprzedawców. Utrzymuje subtelności rat klienta, przyjęcia pozycji, ekspansji nowych klientów, pozycji, a ponadto odświeżanie, anulowanie dla tego samego. Dodatkowo przechowuje szczegóły faktur utworzonych przez klientów i wykonanych przez nich rat wszystkimi metodami płatności, takimi jak Visa.
+## Wymagania projektowe
 
-Klienci mogą kupować wiele przedmiotów zgodnie z ich wymaganiami i sprawdzać nagrodę, szczegóły przedmiotu i wiele więcej, podczas gdy sprzedawca ma pełne informacje o przedmiocie i może odświeżyć lub zachować dane przedmiotu.
+Technologia: Java, Javascript, HTML
 
-Najważniejsze cechy przedsięwzięcia „ZAKUPY w Internecie” to wysoka precyzja, możliwość dostosowania planu i prosta dostępność. Co więcej, wykorzystuje tabele bazy danych reprezentujące elementy i połączenia między elementami.
-
-Wymagania projektowe
-
-Technologia: Java, Javascript, HTML, PHP
-
-Backend: WAMP, Xampp
+Backend: Hibernate,JSP, Html, CSS, JS.
 
 Baza danych: MySQL
 
@@ -138,45 +103,7 @@ Wymagania dotyczące oprogramowania: Fasola sieciowa IDB 8.2, oprogramowanie Ecl
 
 Wymagania sprzętowe: Windows 7/8/10
 
-
-Najnowsze projekty w JAVA
-Chcesz rozwinąć praktyczne umiejętności obsługi JAVA? Sprawdź nasze najnowsze projekty i zacznij naukę za darmo
-
-Zacznij za darmo
-
-Wdrożenie projektu
-
-Ramy po ostrożnym badaniu zostały uznane za powiązane moduły i zadania.
-
-Dołączone moduły to:
-
-Administrator
-
-Moderatorzy
-
-Użytkownicy
-
-Menedżer lub administrator jest super klientem tej aplikacji. Tylko administrator ma dostęp do tej strony administratora. Właścicielem sklepu może być administrator. Kierownik ma wszystkie dane dotyczące wszystkich klientów i towarów
-
-Segment administracyjny będzie efektywnie gotowy do uzyskania danych klientów, w tym adresu e-mail i numeru kontaktowego, listy żądanych pozycji oraz danych o stanie raty. Jego segment księgowy zapewni jasny obraz transakcji oraz raportów kupna i sprzedaży, wykorzystując generator raportów i tworząc raport dochodzeniowy w układzie graficznym, na przykład jako ustrukturyzowaną prezentację lub wykorzystując wykres kołowy
-
-Tylko administrator ma tę zaletę, że może włączyć moderatora. Za moderatora można uznać osobę, która zajmuje się prośbami lub właściciel kilku przedmiotów.
-
-Administrator będzie miał listę wszystkich aktualnych pozycji. Może również szukać konkretnego przedmiotu po nazwie.
-
-Administrator może zobaczyć wszystkie szczegóły każdego klienta na liście oprócz ich haseł. Administrator ma korzyści z natychmiastowego włączenia klienta, podając niezbędne szczegóły.
-
-Menedżer ma możliwość usunięcia lub utrudnienia klientowi. Domyślny stan zarejestrowanego nowego klienta jest ustawiony jako zablokowany. Administrator musi potwierdzić nowego klienta, odblokowując go.
-
-Moderatorzy mogą zmniejszyć zaległe zadanie administratora.
-
-Obecnie moderator ma wszystkie zalety administratora oprócz nadzorowania innych moderatorów.
-
-Może zawierać przedmioty i klientów. Może również sprawdzić aranżacje i zmienić swój profil.
-
-Inny klient powinien zarejestrować się w frameworku, podając podstawowe szczegóły, aby zobaczyć elementy we frameworku.
-
-Administrator musi potwierdzić innego klienta, odblokowując go.
+erdzić innego klienta, odblokowując go.
 
 Zaloguj sie
 
@@ -220,47 +147,45 @@ PROJEKT ZAKUPÓW ONLINE W JAVA
 
 ## trzy
 
-There are two main actors of the application who will interact directly with the application. Admin and a user. Admin can add, edit, delete the book in the shop and the user can view, search, buy and download the required book.
+Istnieją dwaj główni aktorzy aplikacji, którzy będą bezpośrednio współdziałać z aplikacją. Administrator i użytkownik. Administrator może dodawać, edytować, usuwać produkty w sklepie, a użytkownik może przeglądać, wyszukiwać, kupować i pobierać wymaganą książkę.
 
 Admin:
 
-Admin can view all the available free books in the application.
+Administrator może przeglądać wszystkie dostępne bezpłatne książki w aplikacji.
 
-Admin can ADD/DELETE/UPDATE free books of the store.
+Administrator może DODAĆ / USUNĄĆ / AKTUALIZOWAĆ darmowe książki w sklepie.
 
-Admin can view all the paid books in the application.
+Administrator może przeglądać wszystkie płatne książki w aplikacji.
 
-Admin can ADD/DELETE/UPDATE Paid books of the store.
+Administrator może DODAĆ / USUNĄĆ / AKTUALIZOWAĆ Płatne książki w sklepie.
 
-Admin can view all the bookings or sales of the store.
+Administrator może przeglądać wszystkie rezerwacje lub sprzedaże sklepu.
 
-User:
+Użytkownik:
 
-User can view all the books in the application.
+Użytkownik może przeglądać wszystkie książki w aplikacji.
 
-Users can search books by name.
+Użytkownicy mogą wyszukiwać książki według nazwy.
 
-Users can filter books by categories.
+Użytkownicy mogą filtrować książki według kategorii.
 
-User can download free books after login in the application
+Użytkownik może pobrać bezpłatne książki po zalogowaniu się w aplikacji 
 
-Login and registration for the user.
+Logowanie i rejestracja użytkownika.
 
-Users can buy any book with online payment.
+Użytkownicy mogą kupić dowolną książkę za pomocą płatności online.
 
-Users can check the booking history after login in to the application.
+Użytkownicy mogą sprawdzić historię rezerwacji po zalogowaniu się do aplikacji.
 
-Technology Used in the project Online Book book.
+Technologia wykorzystana w projekcie książki Online Book.
 
-Front-End : JSP, Html, CSS, JS.
+Front-End: JSP, Html, CSS, JS.
 
-Server-side: Servlet.
+Po stronie serwera: serwlet.
 
-Back-end: MYSQL.
+Zaplecze: MYSQL.
 
-Server: Tomcat 8.5.
-
-
+Serwer: Tomcat 8.5.
 
 ## cztery
 
