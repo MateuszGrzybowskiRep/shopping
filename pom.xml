@@ -15,7 +15,7 @@
         <hibernate.vrsion>5.2.7.Final</hibernate.vrsion>
         <!--backend-->
         <spring.version>4.3.6.RELEASE</spring.version>
-        <hibernate.version>5.2.7.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <jakson.version>2.8.7</jakson.version>
 
         <javaee.version>7.0</javaee.version>
